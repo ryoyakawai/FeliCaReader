@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 'android-P'
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "sakura.felica"
         minSdkVersion 19
-        targetSdkVersion 'P'
+        targetSdkVersion 27
         versionCode 2
         versionName "2.0"
     }
